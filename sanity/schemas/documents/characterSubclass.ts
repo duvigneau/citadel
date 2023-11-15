@@ -1,8 +1,8 @@
-import { field, type } from '../helpers';
+import { field, type } from '../../helpers';
 
 export default type.document({
-  name: 'character',
-  title: 'Character',
+  name: 'characterSubclass',
+  title: 'Subclass',
   fields: [
     field.string({
       name: 'name',
